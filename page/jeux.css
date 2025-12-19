@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #7e22ce 100%);
+    font-family:  Arial, sans-serif;
+}
+
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 520px;
+    width: 50%;
+    background: #c8c2c2;
+    margin: auto;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+}
+
+div ul{
+    padding: 0;
+}
+
+div h1{
+    font-size: 2.6rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+div .list-jeux{
+    font-size: 1.5rem;
+    background: #1e3c72;
+    margin: 15px auto;
+    padding: 20px;
+    width: 60%;
+    border-radius: 70px;
+    transition: all 0.2s ease;
+}
+
+div .list-jeux:hover{
+    font-size: 1.7rem;
+}

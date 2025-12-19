@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+#quiz-container {
+  width: 400px;
+  border: 2px solid #333;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #eee;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+li:hover {
+  background-color: #ddd;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
